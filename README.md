@@ -17,7 +17,7 @@ public interface Greeting extends ExtensionPoint {
 It includes [`ChinesePlugin`](https://github.com/kaibozhou/pf4j-demo/blob/master/plugin-chinese/src/main/java/com/zhoukaibo/plugin/ChinesePlugin.java) and [`EnglishPlugin`](https://github.com/kaibozhou/pf4j-demo/blob/master/plugin-english/src/main/java/com/zhoukaibo/plugin/EnglishPlugin.java) which implements the `sayHello` interface.
 
 ### App
-[`PluginTest`](https://github.com/kaibozhou/pf4j-demo/blob/master/plugin-app/src/main/java/com/zhoukaibo/plugin/PluginTest.java) is the entry function that calls the plugin.
+[`PluginTest`](https://github.com/kaibozhou/pf4j-demo/blob/master/app/src/main/java/com/zhoukaibo/plugin/PluginTest.java) is the entry function that calls the plugin.
 
 ## How to use
 1. Run `build.sh`
@@ -55,7 +55,7 @@ public interface Greeting extends ExtensionPoint {
 包含 [`ChinesePlugin`](https://github.com/kaibozhou/pf4j-demo/blob/master/plugin-chinese/src/main/java/com/zhoukaibo/plugin/ChinesePlugin.java)和 [`EnglishPlugin`](https://github.com/kaibozhou/pf4j-demo/blob/master/plugin-english/src/main/java/com/zhoukaibo/plugin/EnglishPlugin.java) 两个插件，它们都实现了 `sayHello` 接口.
 
 ### 应用入口
-[`PluginTest`](https://github.com/kaibozhou/pf4j-demo/blob/master/plugin-app/src/main/java/com/zhoukaibo/plugin/PluginTest.java) 是入口函数，对插件进行调用.
+[`PluginTest`](https://github.com/kaibozhou/pf4j-demo/blob/master/app/src/main/java/com/zhoukaibo/plugin/PluginTest.java) 是入口函数，对插件进行调用.
 
 ## 如何使用
 1. 运行 build.sh
